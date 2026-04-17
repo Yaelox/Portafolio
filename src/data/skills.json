@@ -1,0 +1,70 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Ionic",
+    "imageSrc": "skills/ionic.png"
+  },
+  {
+    "title": "JS",
+    "imageSrc":"skills/js.png"
+  },
+  {
+    "title": "TS",
+    "imageSrc":"skills/ts.png"
+  },
+  {
+    "title": "Boostrap",
+    "imageSrc":"skills/boostrap.png"
+  },
+  {
+    "title": "Angular",
+    "imageSrc":"skills/Angular.png"
+
+  },
+  {
+    "title": "Sass",
+    "imageSrc":"skills/sass.png"
+
+  },
+  {
+    "title": "Net",
+    "imageSrc":"skills/net.png"
+
+  },
+  {
+    "title": "Docker",
+    "imageSrc":"skills/docker.png"
+
+  },
+  {
+    "title":"Python",
+    "imageSrc":"skills/python.png"
+  },
+   {
+    "title":"SQL",
+    "imageSrc":"skills/sql.png"
+  }
+]

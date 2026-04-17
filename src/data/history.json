@@ -1,0 +1,41 @@
+[
+  {
+    "role": "Full Stack Software Engineer",
+    "organisation": "Mi crush de calvillo",
+    "startDate": "Jan, 2025",
+    "endDate": "May,2025",
+    "experiences": ["Developed a PWA for sales", 
+    "Backend with Node.js/Express and REST APIs",
+    "Frontend in Angular with intuitive interfaces and payment workflows.",
+    "Automated totals, taxes, and stock control.",
+    "Designed and managed MYSQL databases."],
+    "imageSrc": "history/mcdc.png"
+  },
+  {
+    "role": "Full Stack Software Engineer",
+    "organisation": "Mini Super Juan",
+    "startDate": "Apr, 2024",
+    "endDate": "Aug, 2024",
+    "experiences": [
+      "Design and development of a Progressive Web App (PWA)  ",
+      "Sales registration and querying",
+      "Automatic inventory control",
+      "Customer and product management",
+      "Calculation of totals, taxes, and basic reports",
+      "PWA configuration for partial offline functionality and device installation."
+    ],
+    "imageSrc": "history/tienda.png"
+  },
+  {
+    "role": "Full Stack Software Engineer",
+    "organisation": "Instituto Nacional de Estadística y Geografía. (INEGI) ",
+    "startDate": "Agu, 2023",
+    "endDate": "Jan, 2024",
+    "experiences": [
+      "Built and maintained geospatial data analysis and visualization tools for strategic decision-making.",
+      "Implemented Python scripts and advanced SQL queries to automate data flows",
+      "Optimization of analysis processes that reduced processing times by up to 25%"
+    ],
+    "imageSrc": "history/INEGI.png"
+  }
+]

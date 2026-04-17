@@ -1,0 +1,34 @@
+[
+  {
+    "title": "APP mi Crush de Calvillo",
+    "imageSrc": "projects/P1.png",
+    "description": "Sales Management Progressive Web App (PWA) Developed and maintained a PWA to manage sales, products, customers, and inventory. Implemented the backend with Node.js and Express, creating REST APIs for sales registration, stock control, and report generation.",
+    "skills": ["Angular", "Express", "Node", "Ionic", "Mysql"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Redesign of Corporate Website",
+    "imageSrc": "projects/P2.png",
+    "description": "In this project, together with my team, we redesigned and improved our university’s institutional website to provide a better user experience (UX) and make the site easier to use and navigate.",
+    "skills": ["React","Sass", "Python","Mysql"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Point of Sale System",
+    "imageSrc": "projects/P2.png",
+    "description": "In this project, based on a specific need, we developed a Point of Sale (POS) System to streamline and improve the buying and selling process, facilitate inventory management, and efficiently handle cash flow in a supermarket.",
+    "skills": ["HTML", "JS", "Node","Express","Mysql","CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Participatory Mapping",
+    "imageSrc": "projects/project.png",
+    "description": "Participatory Mapping Project I helped develop tools to analyze and visualize geospatial data using Python and SQL, improving efficiency and standardizing participatory mapping processes.",
+    "skills": ["HTML", "JS", "Python","Mysql","CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
