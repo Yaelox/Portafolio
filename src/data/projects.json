@@ -2,31 +2,31 @@
   {
     "title": "APP mi Crush de Calvillo",
     "imageSrc": "projects/P1.png",
-    "description": "Sales Management Progressive Web App (PWA) Developed and maintained a PWA to manage sales, products, customers, and inventory. Implemented the backend with Node.js and Express, creating REST APIs for sales registration, stock control, and report generation.",
+    "description": "Desarrollé una aplicacion web progresiva (PWA) para la gestion en tiempo real de ventas,clients,product e inventario. Implementé APIs RESTful, sincronización de datos y control de inventario con actualizaciones automáticas de stock. Diseñé interfaces responsivas y optimizadas UX/UI, enfocadas en la experiencias del usuario y el rendimiento. Diseñe una base de datos relacional en SQL, garantizando la integridad de los datos, la escalabilidad y una gestion eficiente de la información. Utilicé service workers y estrategoas de almacenamiento en cache offline-first, mejorando la disponibilidad y el rendimiento de la aplicación.",
     "skills": ["Angular", "Express", "Node", "Ionic", "Mysql"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Redesign of Corporate Website",
+    "title": "Rediseño de Pagina Institucional",
     "imageSrc": "projects/P2.png",
-    "description": "In this project, together with my team, we redesigned and improved our university’s institutional website to provide a better user experience (UX) and make the site easier to use and navigate.",
+    "description": "Mejoré la experiencia del usuario (UX) simplificando los flujos de navegación.Optimicé el rendimiento web reduciendo tiempos de carga y mejorando las metricas de Lighthouse.Implemente components reutilizables para mejorar la mantenibilidad y escalabilidad. Reestructuré la arquitectura de la información para optimizar la navegación, jerarquia de contenido y accesibilidad. Implemente validaciones avanzadas de formularios y optimicé los flujos de usuarios para mejorar la interaccion.",
     "skills": ["React","Sass", "Python","Mysql"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Point of Sale System",
+    "title": "Punto de Venta",
     "imageSrc": "projects/P2.png",
-    "description": "In this project, based on a specific need, we developed a Point of Sale (POS) System to streamline and improve the buying and selling process, facilitate inventory management, and efficiently handle cash flow in a supermarket.",
+    "description": "Desarrollé un sistema de punto de venta (POS) enfocado en la gestión eficiente de ventas, clientes e inventario para pequeños y medianos negocios. El proyecto fue diseñado como una aplicación web moderna y responsiva, permitiendo su uso tanto en dispositivos móviles como de escritorio.El sistema incluye funcionalidades como registro de ventas en tiempo real, control automático de inventario, gestión de clientes y productos, cálculo de impuestos y generación de reportes básicos. Además, optimicé la aplicación como PWA (Progressive Web App), permitiendo instalación en dispositivos y funcionamiento parcial sin conexión a internet.",
     "skills": ["HTML", "JS", "Node","Express","Mysql","CSS"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Participatory Mapping",
+    "title": "Aplicacion de Insidencias",
     "imageSrc": "projects/project.png",
-    "description": "Participatory Mapping Project I helped develop tools to analyze and visualize geospatial data using Python and SQL, improving efficiency and standardizing participatory mapping processes.",
+    "description": "Desarrollé una aplicacion para la gestión de incidencias y soporte técnico utilizando JAVA/Spring Boot, React,MySQL.Implementé autenticación y control de acceso basado en roles para administradores, tecnicos y usuarios. Diseñe dashboard interactivos para monitorear tickets, metricas y estados de atencion en tiempo real.Optimicé consultas y estructuras de base de datos para mejorar el rendimiento y la escalabilidad del Sistema.",
     "skills": ["HTML", "JS", "Python","Mysql","CSS"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"

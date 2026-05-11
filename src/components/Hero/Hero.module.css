@@ -5,11 +5,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
-  z-index: 1;
+
+  margin-top: 60px;
   margin-left: 10%;
   margin-right: 10%;
+
+  z-index: 1;
+  gap: 40px;
 }
+
+/* ---------- TEXT CONTENT ---------- */
 
 .content {
   display: flex;
@@ -17,96 +22,147 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+  max-width: 600px;
 }
 
 .title {
-  font-size: 72px;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 25px;
   font-family: var(--font-roboto);
+  line-height: 1.1;
+
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
+    rgba(255, 255, 255, 1) 60%,
+    rgba(255, 255, 255, 0.4)
   );
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-    background-clip: text;
+  background-clip: text;
 }
 
 .description {
-  font-size: 30px;
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
+  margin-bottom: 40px;
+  opacity: 0.85;
+  line-height: 1.6;
 }
+
+/* ---------- BUTTON ---------- */
 
 .contactBtn {
   text-decoration: none;
-  background-color: var(--color-primary);
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    #5b8cff
+  );
+
   color: var(--color-text);
-  border-radius: 100px;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  padding: 14px 28px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
+.contactBtn:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- IMAGE ---------- */
+
 .heroImg {
-  width: 35%;
+  width: 38%;
   z-index: 1;
 
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation: floating 4s ease-in-out infinite;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
 }
 
 @keyframes floating {
   0% {
-    transform: translate(0, 0px);
+    transform: translateY(0px);
   }
   50% {
-    transform: translate(0, 10px);
+    transform: translateY(14px);
   }
   100% {
-    transform: translate(0, -0px);
+    transform: translateY(0px);
   }
+}
+
+/* ---------- BLUR BACKGROUNDS ---------- */
+
+.topBlur,
+.bottomBlur {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(25, 55, 109, 0.6);
+  filter: blur(120px);
+  z-index: 0;
 }
 
 .topBlur {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
+  width: 45vw;
+  height: 45vw;
+  top: -120px;
+  left: -15vw;
 }
 
 .bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
+  width: 60vw;
+  height: 60vw;
+  bottom: -150px;
   right: -25vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
 }
+
+/* ---------- TABLET ---------- */
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    width: 70%;
+  }
+}
+
+/* ---------- MOBILE ---------- */
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .contactBtn {
+    font-size: 1rem;
+    padding: 12px 22px;
+  }
+
+  .heroImg {
+    width: 85%;
   }
 }

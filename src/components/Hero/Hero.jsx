@@ -9,9 +9,10 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Angel Yael Silvestre Robledo</h1>
         <p className={styles.description}>
-            I'm a Full Stack Software Engineer focused on building fast, scalable, and user-centered web and mobile applications. 
-            I'm specialized in frontend-backend integration, as well as SQL database design and optimization.
-            I enjoy turning ideas into functional solutions by applying best development practices, clean code, and efficient architectures. I work with agile methodologies and quickly adapt to new technologies to deliver real value in every project.
+           Soy un Ingeniero de Software Full Stack enfocado en desarrollar aplicaciones web y móviles rápidas, escalables y centradas en el usuario.
+Estoy especializado en la integración frontend-backend, así como en el diseño y optimización de bases de datos SQL.
+
+Disfruto transformar ideas en soluciones funcionales aplicando buenas prácticas de desarrollo, código limpio y arquitecturas eficientes. Trabajo con metodologías ágiles y me adapto rápidamente a nuevas tecnologías para aportar valor real en cada proyecto.
         </p>
         <a href="mailto:yaelsilvestre64@gmail.com" className={styles.contactBtn}>
           Contact Me

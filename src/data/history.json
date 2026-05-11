@@ -1,40 +1,33 @@
 [
   {
-    "role": "Full Stack Software Engineer",
-    "organisation": "Mi crush de calvillo",
-    "startDate": "Jan, 2025",
-    "endDate": "May,2025",
-    "experiences": ["Developed a PWA for sales", 
-    "Backend with Node.js/Express and REST APIs",
-    "Frontend in Angular with intuitive interfaces and payment workflows.",
-    "Automated totals, taxes, and stock control.",
-    "Designed and managed MYSQL databases."],
+    "role": "Desarrollador Full Stack",
+    "organisation": "Mi crush de Calvillo",
+    "startDate": "Enero, 2025",
+    "endDate": "Mayo,2025",
+    "experiences": ["Desarrollé una PWA para la gestión de ventas.", 
+    "Implementé el backend con Node.js, Express y APIs REST.",
+    "Desarrollé el frontend en Angular con interfaces intuitivas y flujos de pago optimizados.",
+    "Automaticé el cálculo de totales, impuestos y control de inventario.",
+    "Diseñé y administré bases de datos MySQL."],
     "imageSrc": "history/mcdc.png"
   },
   {
-    "role": "Full Stack Software Engineer",
+    "role": "Desarrollador Full Stack",
     "organisation": "Mini Super Juan",
-    "startDate": "Apr, 2024",
-    "endDate": "Aug, 2024",
+    "startDate": "Abril, 2024",
+    "endDate": "Agosto, 2024",
     "experiences": [
-      "Design and development of a Progressive Web App (PWA)  ",
-      "Sales registration and querying",
-      "Automatic inventory control",
-      "Customer and product management",
-      "Calculation of totals, taxes, and basic reports",
-      "PWA configuration for partial offline functionality and device installation."
+      "Mejoré la experiencia del usuario (UX) simplificando los flujos de navegación.Optimicé el rendimiento web reduciendo tiempos de carga y mejorando las metricas de Lighthouse.Implemente components reutilizables para mejorar la mantenibilidad y escalabilidad."
     ],
     "imageSrc": "history/tienda.png"
   },
   {
-    "role": "Full Stack Software Engineer",
+    "role": "Desarrollador Full Stack",
     "organisation": "Instituto Nacional de Estadística y Geografía. (INEGI) ",
-    "startDate": "Agu, 2023",
-    "endDate": "Jan, 2024",
+    "startDate": "Agosto, 2023",
+    "endDate": "Enero, 2024",
     "experiences": [
-      "Built and maintained geospatial data analysis and visualization tools for strategic decision-making.",
-      "Implemented Python scripts and advanced SQL queries to automate data flows",
-      "Optimization of analysis processes that reduced processing times by up to 25%"
+      "Desarrollé una aplicacion para la gestión de incidencias y soporte técnico utilizando JAVA/Spring Boot, React,MySQL.Implementé autenticación y control de acceso basado en roles para administradores, tecnicos y usuarios. Diseñe dashboard interactivos para monitorear tickets, metricas y estados de atencion en tiempo real.Optimicé consultas y estructuras de base de datos para mejorar el rendimiento y la escalabilidad del Sistema."
     ],
     "imageSrc": "history/INEGI.png"
   }
